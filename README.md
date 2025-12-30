@@ -20,29 +20,49 @@ The chatbot strictly answers questions only within the selected module, making i
 
 
 📌 Available Learning Modules
+
 Python
+
 SQL
+
 Power BI
+
 Exploratory Data Analysis (EDA)
+
 Machine Learning (ML)
+
 Deep Learning (DL)
+
 Generative AI (Gen AI)
+
 Agentic AI
 
 
 🧠 How It Works
+
 User selects a learning module.
+
 A module-specific system prompt is injected into the LLM.
+
 The AI mentor:
+
 Answers only questions related to the selected module.
+
 Rejects unrelated questions with a fixed response.
+
 The entire chat session is stored in memory.
+
 User can download the conversation anytime.
 
+
 🧩 Tech Stack
+
 Streamlit
+
 LLM	Google Gemini
+
 LangChain
+
 python-dotenv
 
 
