@@ -2,7 +2,7 @@
 AI Chatbot Mentor is a Streamlit-based AI application that provides focused, module-specific mentoring across multiple technical domains.
 The chatbot strictly answers questions only within the selected module, making it suitable for structured learning and educational use.
 🚀 **Live Application**  
-👉 [Open Streamlit App](https://ai-chatbot-mentor.streamlit.app)
+👉 [Open Streamlit App](https://izrjcusavztwkdkbd9lvah.streamlit.app/)
 
 🚀 Features
 
