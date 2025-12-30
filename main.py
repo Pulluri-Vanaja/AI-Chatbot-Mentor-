@@ -5,9 +5,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
 # Load Environment Variables
+GOOGLE_API_KEY = os.getenv("genai")
 
-load_dotenv()
-os.environ["GOOGLE_API_KEY"] = os.getenv("genai")
 
 
 # Page Config
