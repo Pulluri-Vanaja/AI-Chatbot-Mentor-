@@ -5,11 +5,17 @@ The chatbot strictly answers questions only within the selected module, making i
 👉 [Open Streamlit App](https://ai-chatbot-mentor.streamlit.app)
 
 🚀 Features
+
 📚 Module-based AI mentoring
+
 🎯 Strict domain restriction (no off-topic answers)
+
 🧠 Session-based conversation memory
+
 💬 Interactive chat interface
+
 📥 Download full conversation as a .txt file
+
 🧼 Clean, beginner-friendly Streamlit UI
 
 
