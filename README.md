@@ -1,2 +1,6 @@
 # AI-Chatbot-Mentor-
-https://share.streamlit.io/
+🚀 **Live Application**  
+👉 [Open Streamlit App](https://ai-chatbot-mentor.streamlit.app)
+
+
+
