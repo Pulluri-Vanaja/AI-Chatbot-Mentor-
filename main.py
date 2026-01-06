@@ -5,7 +5,7 @@ import os
 
 # ------------------ BASIC SETUP ------------------
 load_dotenv()
-os.environ["GOOGLE_API_KEY"] = os.getenv("genai")
+
 st.set_page_config(page_title="AI Chatbot Mentor", page_icon="🤖")
 
 # ------------------ SESSION STATE INIT ------------------
@@ -88,6 +88,7 @@ else:
 
         # Call LLM
         model = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite")
+        api_key=st.secrets["GOOGLE_API_KEY"]
         response = model.invoke(st.session_state.memory)
 
         # Store AI response
